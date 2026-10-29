@@ -1,0 +1,101 @@
+/* nomes: matheus reffatti mello, everton canal costa, diogo machado de oliveira, miguel machado de oliveira e benito dos passos rosa.
+turma: 1T */
+
+h1 {
+    
+    /* centraliza o texto dentro da pagina */
+    text-align: center;
+    
+    /* define a cor do texto como branca */
+    color: white;
+    
+    /* cria uma borda branca de 3 pixels */
+    border: 3px solid white;
+    
+    /* adiciona espaço interno entre o texto e a borda */
+    padding: 10px;
+    
+    /* arredonda as bordas do elemento */    
+    border-radius: 15px;
+
+    /* define o tamanho da fonte */
+     font-size: 45px;
+}
+
+
+h3 {
+   
+    /* centraliza o texto dentro da pagina */    
+    text-align: center;
+        
+    /* define a cor do texto como branca */
+    color: white;
+
+    /* define o tamanho da fonte */
+    font-size: 32px;
+}
+
+
+body {
+    
+    /* cor de fundo da página gradiante*/    
+    background: linear-gradient(to top, #a5d6a7, #388e3c) ;
+
+}
+
+img {
+
+   /* Arredonda a borda das imagens */ 
+   border-radius: 10px;
+
+   /* Muda a cor da borda */
+   border-color: rgb(123, 204, 123);
+
+}
+
+.estil {
+
+    /* transforma o botão em bloco, permitindo centralizar ele na página */    
+    display: block;
+
+    /* largura do botao */    
+    width: 250px;
+
+    /* altura do botao */    
+    padding: 30px;
+
+    /* centraliza o texto dentro do botao normal como os outros*/    
+    text-align: center;
+
+    /* edita a altura para alto ou baixo o botao*/
+    margin: 60px auto;
+    
+    /* cor de fundo do botão que é o verde escuro*/
+    background-color: #218138;
+
+    /* cor da frase */    
+    color: white;
+
+    /* arredondar as bordas para fica bonito */    
+    border-radius: 50px;
+
+    /* remove aquele sublinhado porque essa coisa é um link */    
+    text-decoration: none;
+
+    /* edita o tamanho do texto dentro do botao*/    
+    font-size: 28px;
+
+    /* faz uma borda na cor branca*/    
+    border: 3px solid white;
+
+}
+
+.texto {
+
+    /* define o tamanho da fonte */
+    font-size: 25px;      
+   
+    /* centraliza os parágrafos */
+    text-align: center;  
+
+}

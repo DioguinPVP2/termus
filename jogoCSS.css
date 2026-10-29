@@ -1,0 +1,230 @@
+/* nomes: matheus reffatti mello, everton canal costa, diogo machado de oliveira, miguel machado de oliveira e benito dos passos rosa.
+turma: 1T  */
+
+/* Seleciona a linha que possui a classe "foco" */
+.foco td{
+
+  /* Define  */
+    background-color: white; 
+
+}
+
+/* Seleciona toda tabela do código*/
+table{
+
+/* Define a largura da tabela */  
+width:500px;
+
+/* Define a altura da tabela*/
+height:500px;
+
+/* Define a largura da borda da tabela como 0px (remove a borda)*/
+border-width:0px;
+
+/* Define a tabela como "fixa", então o tamanho não aumenta ao digitar letras*/
+table-layout:fixed;
+
+/* Define a margem como automática, ou seja, aplica a mesma largura e altura definidas a TODOS lados da margem*/
+margin: auto;
+}
+
+/* Seleciona todas células da tabela (td) */
+td{
+
+
+opacity: 1;  
+
+/* Cria uma transição de 0.5 segundos sempre que a cor de fundo do elemento for alterada, criando um efeito  */
+transition: background-color 0.5s, opacity 0.5s;
+
+/* Define a largura como 62px */
+width:62px;
+
+/* Define a altura como 62px*/
+height:62px;
+
+/* Define a largura da borda como 4px */
+border-width:4px;
+
+/* Define a cor da borda para preto */
+border-color:rgb(0, 0, 0);
+
+/* Esconde todo conteúdo que for maior do que a largura x altura permitem */
+overflow: hidden;
+
+/* Alinha todo texto no centro da célula */
+text-align:center;
+
+/* Define o tamanho da fonte como 52px */
+font-size: 52px;
+
+/* Define o alcançe da borda como 5px */
+border-radius: 5px;
+
+/* Faz a cor de fundo dos elementos ficar cinza */
+background-color: gray;
+}
+
+
+/* Seleciona tudo dentro do <body> */
+body{
+
+/* Define todos elementos como grid para posicionar-los em colunas x linhas */
+display: grid;
+
+/* Define que o grid possui 3 colunas de tamanhos iguais, ocupando 1/3 da página*/
+grid-template-columns: 1fr 1fr 1fr;
+
+/* Define que o grid ira possuir uma única linha, ocupando todo espaço possível */
+grid-template-rows: 1fr;
+
+/* Define o fundo da página como um degradê, indo de verde claro para escuro, de baixo para cima (to top) */
+background: linear-gradient(to top, #a5d6a7, #388e3c) ;
+
+/* Define que o fundo não irá se repetir */
+background-repeat: no-repeat;
+
+/* Deixa o fundo fixo, não irá se movimentar ao descer na página */
+background-attachment: fixed;
+
+/* Faz o fundo cobrir toda área do body automaticamente */
+background-size: cover;
+
+}
+
+/* Seleciona o elemento com o id "container" */
+#container{
+
+/* Alinha toda coluna do container no meio da página (2/3)*/  
+grid-column: 2/3;
+
+/* Alinha todo texto ao centro*/
+text-align: center;
+
+/* Define o Espaço da margem de cima como 0px*/
+margin-top: 0px;
+}
+
+/* Seleciona todo elemento <h2> */
+h2{
+
+ /* Define o tamanho da fonte como 60px*/ 
+font-size: 60px;
+
+/* Controla a distância das margens de cima, baixo e direita*/
+margin-top: 5px;
+margin-bottom: 5px;
+margin-right: 10px;
+}
+
+/* Seleciona todo elemento <button> */
+button{
+
+/* Define o tamanho da fonte para 25px */
+font-size: 25px;
+
+/* Define a largura como 165px */
+width: 165px;
+
+/* Define a altura como 55px */
+height: 55px;
+
+/* Remove a borda */
+border: none;
+
+/* Define o alcançe da borda como 30px */
+border-radius: 30px;
+
+/* Define a cor de fundo como verde mais escuro*/
+background-color: rgb(56, 142, 60);
+
+/* Define a distância da margem de cima para 8px*/
+margin-top: 8px;
+
+/* Define a distância da margem de baixo para 5px */
+margin-bottom: 5px;
+}
+
+#retangulo {
+  
+/* comprimento (largura) do retângulo */
+width: 400px;                 
+  
+/* altura do retângulo */
+height: 150px;                
+  
+/* cor de fundo */  
+background: rgb(56, 142, 60); 
+  
+/* cor do texto */  
+color: white;                 
+  
+/* borda branca */ 
+border: 3px solid white;      
+  
+/* permite centralizar com top e left */ 
+position: absolute;           
+  
+/* centraliza verticalmente */  
+top: 50%;                     
+  
+/* centraliza horizontalmente */  
+left: 50%;                    
+  
+/*serve para mover um elemento na tela, deslocando-o 50% para a esquerda e 50% para cima*/  
+transform: translate(-50%, -50%); 
+  
+/* centraliza o texto na horizontal */  
+text-align: center;           
+  
+/* centraliza o texto na vertical (igual à altura) */  
+line-height: 150px;           
+  
+/* texto em itálico */  
+font-style: italic;           
+  
+/* tamanho do texto aumentado */  
+font-size: 25px;              
+}
+
+#retangulo2 {
+  
+/* comprimento (largura) do retângulo */  
+width: 400px;                 
+  
+/* altura do retângulo */  
+height: 150px;                
+  
+/* cor de fundo */  
+background: rgb(56, 142, 60); 
+  
+/* cor do texto */ 
+color: white;                 
+  
+/* borda branca */ 
+border: 3px solid white;      
+  
+/* permite centralizar com top e left */  
+position: absolute;           
+  
+/* centraliza verticalmente */
+top: 50%;                     
+  
+/* centraliza horizontalmente */  
+left: 50%;                    
+  
+/*serve para mover um elemento na tela, deslocando-o 50% para a esquerda e 50% para cima*/  
+transform: translate(-50%, -50%); 
+  
+/* centraliza o texto na horizontal */  
+text-align: center;           
+  
+/* centraliza o texto na vertical (igual à altura) */  
+line-height: 150px;           
+  
+/* texto em itálico */  
+font-style: italic;           
+  
+/* tamanho do texto aumentado */  
+font-size: 25px;              
+}
